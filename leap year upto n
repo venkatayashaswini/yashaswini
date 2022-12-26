@@ -1,0 +1,8 @@
+n=int(input("enter a year"))
+years=[]
+for year in range(n+1):
+    if year%400==0:
+        years.append(year)
+    elif year%4==0 and year%100!=0:
+        years.append(year)
+print(years)
