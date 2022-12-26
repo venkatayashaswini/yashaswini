@@ -1,0 +1,11 @@
+t=int(input("Enter t value:"))
+n1=0
+n2=1
+print("Fibonacci series:")
+print(n1,n2)
+while(t!=0):
+    n=n1+n2
+    n1=n2
+    n2=n
+    t=t-1
+    print(n)
