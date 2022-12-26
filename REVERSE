@@ -1,0 +1,7 @@
+n=int(input())
+l=list(map(int,input().split()))
+#for i in range(0,n):
+ #   print(l[i])
+print("Reverse of elements in list:")    
+for j in range(n-1,-1,-1):
+    print(l[j])
