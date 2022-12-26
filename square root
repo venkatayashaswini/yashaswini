@@ -1,0 +1,6 @@
+n=int(input("enter a number"))
+i=n*n
+if i>10:
+    print("hello")
+else:
+    print("hi")
