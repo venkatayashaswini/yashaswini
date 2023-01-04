@@ -1,0 +1,20 @@
+n=int(input())
+matrix=[]
+sum1=0
+sum2=0
+for i in range(0,n):
+    l=[]
+    for j in range(0,n):
+        x=int(input())
+        l.append(x)
+        matrix.append(l)
+for i in range(0,n):
+    for j in range(0,n):
+        if i==j:
+            sum1=sum1+matrix[i][j]
+if i+j==n-1:
+    sum2=sum2+matrix[i][j]
+    if(sum1>sum2):
+      sum=sum1+matrix[i][j]
+    else:
+          sum=sum2+matrix[i][j]
