@@ -1,0 +1,10 @@
+def diagonal sum( self,mat):
+n= len(mat)
+s=o
+for i in range(n):
+   for j in range(n):
+        If i==j:
+ s=s+mat[i][j]
+elif i+j==n-1:
+  s=s+mat[i][j]
+return s
